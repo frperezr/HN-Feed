@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "react & node hackernews app",
   "scripts": {
-    "build": "webpack",
-    "start": "npm run build && nodemon index.js",
+    "build": "webpack --mode development",
+    "start": "npm run build && node index.js",
     "develop": "webpack-dev-server --mode development --open",
     "server:dev": "nodemon index.js",
     "client:dev": "webpack --mode development -w",
